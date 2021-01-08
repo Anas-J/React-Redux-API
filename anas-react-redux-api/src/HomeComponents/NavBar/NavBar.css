@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    min-height: 70px;
+    background-image: url(../assets/nav-bg2.jpg);
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    font-family:monospace;
+}
+.nav-tittle{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.main-tittle {
+    font-size: 2.5em;
+}
+.sub-tittle {
+    font-size: 1.2em;
+}
+.nav-icon {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1.2em;
+
+}
+.icon {
+    padding-left: 1rem;
+    cursor: pointer;
+}

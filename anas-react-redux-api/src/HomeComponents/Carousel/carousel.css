@@ -1,0 +1,38 @@
+.carousel {
+    height: 350px;
+    width: 250px;
+    box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 2.2rem;
+    padding: 1em;
+  }
+.carouse-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 6rem;
+} 
+
+.ingred {
+    opacity: 1;
+    color: #fff;
+}
+  
+.desc {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: -webkit-fill-available;
+    opacity: 1;
+    font-weight: 500;
+    align-items: flex;
+}
+a{
+    padding: 10px;
+}

@@ -1,0 +1,35 @@
+.content-wrapper {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5em;
+    background-image: url(https://images.pexels.com/photos/2090903/pexels-photo-2090903.jpeg?cs=srgb&dl=pexels-dominika-roseclay-2090903.jpg&fm=jpg);
+    background-size: cover;
+}
+.wrap-carous{
+    padding: 0 2em;
+    margin: auto;
+}
+  
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width: 550px) {
+    .wrap-carous{
+        padding: 0;
+    }
+}
